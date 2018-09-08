@@ -161,11 +161,8 @@
             clearInterval(interval);
             finalTime = timer.innerHTML;
             modal.classList.add("show");        /*запуск поздравительного окна*/
-            document.getElementById("finalMove").innerHTML = moves;         /*показываем кол-во ходов, времени в окне*/
-            document.getElementById("totalTime").innerHTML = finalTime;
+           
 
-            var usersArray = getBestPlayers();
-            
             printPlayers();
             closeModal();       /*закрываем окно*/
 
