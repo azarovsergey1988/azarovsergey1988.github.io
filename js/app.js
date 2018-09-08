@@ -163,7 +163,7 @@
             modal.classList.add("show");        /*запуск поздравительного окна*/
             document.getElementById("finalMove").innerHTML = moves;         /*показываем кол-во ходов, времени в окне*/
             document.getElementById("totalTime").innerHTML = finalTime;
-            localStorage.setItem(name, JSON.stringify(stat));
+
             var usersArray = getBestPlayers();
             setLocalStorage(usersArray);
             printPlayers();
