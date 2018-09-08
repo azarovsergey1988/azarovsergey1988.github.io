@@ -165,7 +165,7 @@
             document.getElementById("totalTime").innerHTML = finalTime;
 
             var usersArray = getBestPlayers();
-            setLocalStorage(usersArray);
+            
             printPlayers();
             closeModal();       /*закрываем окно*/
 
