@@ -159,9 +159,7 @@
     function table(){
 
             clearInterval(interval);
-            finalTime = timer.innerHTML;
             modal.classList.add("show");        /*запуск поздравительного окна*/
-           
 
             printPlayers();
             closeModal();       /*закрываем окно*/
