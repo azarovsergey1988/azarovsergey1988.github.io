@@ -158,7 +158,6 @@
 
     function table(){
 
-            clearInterval(interval);
             modal.classList.add("show");        /*запуск поздравительного окна*/
 
             printPlayers();
